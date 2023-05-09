@@ -1,0 +1,55 @@
+.in{
+
+  position: relative;
+
+    background: transparent;
+      border: none;
+      outline: none;
+     
+      left: -112px;
+      top: 8px;
+  
+      
+  }
+
+  .lin{
+
+    position: relative;
+    
+   
+  
+   
+  width: 400px;
+  height: 0px;
+  left: -80px;
+  top: 0px;
+  
+  
+  }
+  
+  .fn{
+    text-align: left;
+  position: relative;
+  width: 300px;
+  height: 21.53px;
+  left:-78px;
+  top: 10.2px;
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  
+  letter-spacing: 0.2em;
+  
+  color: #292826;
+  
+  }
+
+  .fname{
+    display: flex;
+  
+    flex-direction: column;
+  }

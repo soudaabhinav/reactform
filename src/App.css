@@ -1,0 +1,253 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.line{
+
+position: absolute;
+width: 747.39px;
+height: 0px;
+left: 35px;
+top: 62.81px;
+
+
+}
+.wtext{
+  position: absolute;
+width: 216px;
+height: 34px;
+left: 97px;
+top: 57px;
+
+font-family: 'Lustria';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+letter-spacing: 0.05em;
+
+color: #292826;
+
+}
+.SUBMIT{
+  position: absolute;
+width: 150px;
+height: 44.86px;
+left: 500px;
+top: 700px;
+
+}
+
+.cancel{
+
+
+position: absolute;
+width: 57px;
+height: 14.36px;
+left: 700px;
+top: 700px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.2em;
+
+color: #292826;
+
+}
+.CLINE{
+  position: absolute;
+width: 56px;
+height: 0px;
+left: 700px;
+top: 730px;
+border: 1px solid #292826;
+
+
+}
+
+
+
+.form{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 37px;
+
+  position: absolute;
+
+left: 530px;
+top: 120px;
+  
+ 
+
+ 
+}
+
+
+.weekly{
+  /* weekly spl */
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+
+
+position: absolute;
+
+left: 234px;
+top: 180px;
+}
+
+select{
+  
+    position: relative;
+  
+      background: transparent;
+        border: none;
+        outline: none;
+       
+        left: -112px;
+        top: 8px;
+    
+
+}
+
+
+
+
+.ptext{
+  position: absolute;
+width: 216px;
+height: 34px;
+left: 415px;
+top: 57px;
+
+font-family: 'Lustria';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+letter-spacing: 0.05em;
+
+color: #292826;
+
+}
+
+.arrow{
+
+position: absolute;
+width: 5px;
+height: 8.97px;
+left: 217px;
+top: 19px;
+}
+
+.arrow2{
+
+  position: absolute;
+  width: 5px;
+  height: 8.97px;
+  left: 200px;
+  top: 19px;
+  }
+
+  .arrow3{
+
+    position: absolute;
+    width: 5px;
+    height: 8.97px;
+    left: 235px;
+    top: 19px;
+    }
+.vtext{
+
+  position: absolute;
+width: 200px;
+height: 17.05px;
+left: 84px;
+top: 130.99px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.2em;
+
+color: #292826;
+
+}
+
+.vtext2{
+
+  position: absolute;
+width: 200px;
+height: 17.05px;
+left: 102px;
+top: 160px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.2em;
+
+color: #292826;
+
+}
+
+.vtext3{
+
+position: absolute;
+width: 200px;
+height: 17.05px;
+left: 67px;
+top: 190px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.2em;
+
+color: #292826;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
